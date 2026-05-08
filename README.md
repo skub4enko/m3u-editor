@@ -1,0 +1,1 @@
+m3u-editor is a small Python tool for generating and updating .m3u playlists for radio/stream links. It helps you keep playlists consistent by applying an update scheme and producing ready-to-use .m3u files. The repository also includes helper scripts for patching and automating playlist generation.
