@@ -1,0 +1,7 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://radiomap.eu/uk/images/bfbs.svg",BFBS Scotland
+https://listen-ssvcbfbs.sharp-stream.com/ssvcbfbs18.aac
+#EXTINF:-1 tvg-logo="https://radiomap.eu/uk/images/classic.svg",Classic FM - Classical Music Radio
+https://media-ice.musicradio.com/ClassicFMMP3
+#EXTINF:-1 tvg-logo="https://radiomap.eu/uk/images/hits.svg",Hits Radio - Inverness
+https://stream-mz.hellorayo.co.uk/net1northofscotland.mp3
