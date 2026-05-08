@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+ENV/
+env/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# App artifacts
+.radio_m3u_last_out.txt
+
+# Generated playlists (keep examples/templates)
+*.m3u
+!*.example.m3u
