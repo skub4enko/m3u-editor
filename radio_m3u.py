@@ -32,7 +32,19 @@ from typing import Optional
 
 
 M3U_HEADER = "#EXTM3U"
-LAST_OUT_FILE = Path(__file__).with_name(".radio_m3u_last_out.txt")
+
+def _app_state_dir() -> Path:
+    # When packaged with PyInstaller, __file__ points inside the temporary bundle.
+    # Store small state next to the executable instead.
+    if getattr(sys, "frozen", False) and hasattr(sys, "executable"):
+        try:
+            return Path(sys.executable).resolve().parent
+        except Exception:
+            return Path.cwd()
+    return Path(__file__).resolve().parent
+
+
+LAST_OUT_FILE = _app_state_dir() / ".radio_m3u_last_out.txt"
 
 
 @dataclass(frozen=True)

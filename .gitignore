@@ -20,6 +20,11 @@ Thumbs.db
 # App artifacts
 .radio_m3u_last_out.txt
 
+# PyInstaller
+/build/
+/dist/
+*.spec
+
 # Generated playlists (keep examples/templates)
 *.m3u
 !*.example.m3u
